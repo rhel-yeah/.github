@@ -1,4 +1,4 @@
-# RHEL Yeah! 
+# Adding support for RPM-based Linux distributions
 
 ```
      _____        _____        _____        _____         _____                                  
@@ -12,3 +12,5 @@
 ## Introduction
 
 This organization was born out of some frustrations regarding a lack of compatibility of devcontainer features for RPM-based Linux distributions. We wanted to start with some base images first, allowing people to pull in RedHat's Universal Base Images for versions 7, 8, and 9. RHEL7 is not considered a supported OS for the purposes of Codespaces, however, so use that at your own risk.
+
+Support for Rocky Linux _should_ work out of the box for 8.x and 9.x, and we're working on folding in support for the various Fedora versions as well.
