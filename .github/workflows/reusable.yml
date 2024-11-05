@@ -1,0 +1,13 @@
+name: "Reusable Demo"
+
+on:
+  workflow_call:
+
+jobs:
+  standard_demo:
+    name: Standard Demo Item
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output only
+        run: |
+          echo "This is some demo content, nothing to see here"
