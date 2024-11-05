@@ -1,0 +1,9 @@
+name: "Workflow check demo"
+
+on:
+  pull_request:
+
+jobs:
+  main_job:
+    uses: .github/workflows/reusable.yml@main
+  
