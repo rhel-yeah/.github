@@ -5,5 +5,5 @@ on:
 
 jobs:
   main_job:
-    uses: .github/workflows/reusable.yml@main
+    uses: rhel-yeah/.github/.github/workflows/reusable.yml@main
   
